@@ -6,9 +6,9 @@ import "./globals.css";
 export const dynamic = "force-dynamic";
 
 export const metadata: Metadata = {
-  title: "rag-doc-qa — Grounded Document Q&A",
+  title: "Health Data RAG — Grounded Clinical Q&A",
   description:
-    "Ingest documents, retrieve with pgvector, answer with citations, refuse when unsupported.",
+    "Ask a clinical knowledge base. Answers are grounded in the source records with citations, and refused honestly when the records don't contain them.",
 };
 
 export default function RootLayout({
